@@ -1,5 +1,13 @@
 # front
-Repository for keep tracking of my progress with html/css/javascript
+
+> Repository for keep tracking of *my* progress with **html/css/javascript and Markdown** xD...
 
 
-TESTE 2
+## Habilidades:
+
+* HTML
+* CSS
+* JAVASCRIPT
+* MARKDOWN
+* GIT
+* GITHUB
