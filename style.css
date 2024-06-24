@@ -2,3 +2,23 @@ body{
     padding: 0;
     margin: 0;
 }
+.navBar{
+    padding:10px;
+}
+a:link {
+    color: #00ff00;
+    background-color: transparent;
+    text-decoration:none;
+}
+a:visited{
+    color: #0000ff;
+    background-color: transparent;
+}
+a:hover{
+    color: #ffff00;
+    background-color: transparent;
+}
+a:active{
+    color: #ff0000;
+    background-color: transparent;
+}
