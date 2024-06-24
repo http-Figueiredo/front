@@ -22,3 +22,11 @@ a:active{
     color: #ff0000;
     background-color: transparent;
 }
+.arthur{
+    width: 120px;
+    float:right;
+}
+#mapImage{
+    width: 720px;
+    height: 400px;
+}
