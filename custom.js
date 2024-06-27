@@ -95,3 +95,13 @@ do{
     document.write("<br> Senhas do cliente "+inicio+": "+math);
     inicio++;
 } while(inicio <= 10);
+
+document.write("<hr>")
+var total = 0
+
+for (i = 0; i <= 5; i++){
+    document.write("<br>i = "+ i + "<br>");
+    total = total + 2
+    document.write("Total = "+total+"<br><hr>")
+}
+
