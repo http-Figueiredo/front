@@ -95,3 +95,47 @@ do{
     document.write("<br> Senhas do cliente "+inicio+": "+math);
     inicio++;
 } while(inicio <= 10);
+
+document.write("<hr>")
+
+var total = 0
+
+for (i = 0; i <= 5; i++){
+    document.write("<br>i = "+ i + "<br>");
+    total = total + 2
+    document.write("Total = "+total+"<br><hr>")
+}
+
+var cadeira = {
+    cor: "Preto",
+    altura: 118,
+    largura: 74,
+    profundidade: 64
+}
+
+document.write("<strong>Troca de cadeiras na escola</strong><br><br>");
+document.write("Cor antiga: "+ cadeira.cor+"<br><br>");
+
+cadeira.cor = "Branca";
+document.write("Cor nova: "+cadeira.cor+"<br><br>");
+
+cadeira.peso = 17;
+document.write("Peso: "+cadeira.peso+"<br><br>");
+
+document.write("Profundidade: "+cadeira.profundidade+"<br><br>");
+
+delete cadeira.profundidade;
+
+document.write("Profundidade: "+cadeira.profundidade+"<br><br><hr>");
+
+var mesa = new Object();
+mesa.cor = "Preta";
+document.write("Cor da mesa: "+mesa.cor+"<br>");
+
+var Marcas = ["Nestle", "Kibom", "Natura", "Avon"];
+
+//Quantidade de itens do array
+console.log("Quantidade de Marcas: " + Marcas.length );
+
+//Acessar primeiro item do array
+console.log("Primeira Marca: " + Marcas[0]);
