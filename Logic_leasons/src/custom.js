@@ -47,3 +47,41 @@ let cupSize = 3
 let cupCondition
 let cupHasDesign
 let cupContent
+
+let pokemons = ["Pikachu", "Bulbassaur", "Charmander"]
+console.log(pokemons)
+console.log(pokemons[0])
+
+pokemons.pop()
+console.log(pokemons)
+
+pokemons.shift()
+console.log(pokemons)
+
+pokemons.unshift("Pikachu")
+console.log(pokemons)
+
+pokemons.push("Charmander")
+console.log(pokemons)
+
+//arrayName.splice(initial position, number of deletions, "new Element name")
+pokemons.splice(2, 0, "Ponitta")
+console.log(pokemons)
+
+let pokemons2 = ["Squirtle", "Meow"]
+console.log(pokemons2)
+
+let pokedex = [].concat(pokemons, pokemons2)
+console.log(pokedex)
+
+let pokeTeam = [
+    ["Pikachu", "M", "Level 1"],
+    ["Charmander", "F", "Level 5"]
+]
+
+console.log(pokeTeam[0])
+console.log(pokeTeam[0][0])
+console.log(pokeTeam[0][1])
+console.log(pokeTeam[0][2])
+
+console.log(" O pokemon " + pokeTeam[1][0] + "é do sexo " + [1][1] + " e ainda está no " + pokeTeam [1][2])
